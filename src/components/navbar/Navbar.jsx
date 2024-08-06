@@ -8,7 +8,7 @@ const Navbar = () => {
       <header>
         <nav className="navbar">
           <div className="navbar-logo">
-            <img src="../../../public/web/header/Logo.png" alt="Logo" />
+            <img src="/web/header/Logo.png" alt="Logo" />
           </div>
           <div>
             <div className="text-center bold text-3xl uppercase mb-10">Logo</div>
