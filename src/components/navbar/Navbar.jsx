@@ -34,18 +34,18 @@ const Navbar = () => {
             <ul className="navbar-icons">
               <li>
                 <img
-                  src="../../../public/web/header/search-normal.png"
+                  src="/web/header/search-normal.png"
                   alt=""
                 />
               </li>
               <li>
-                <img src="../../../public/web/header/heart.png" alt="" />
+                <img src="/web/header/heart.png" alt="" />
               </li>
               <li>
-                <img src="../../../public/web/header/shopping-bag.png" alt="" />
+                <img src="/web/header/shopping-bag.png" alt="" />
               </li>
               <li>
-                <img src="../../../public/web/header/profile.png" alt="" />
+                <img src="/web/header/profile.png" alt="" />
               </li>
               <li>
                 <select name="" id="">
