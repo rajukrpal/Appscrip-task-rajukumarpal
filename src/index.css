@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+.semebold{
+  font-weight: 600;
+}
+
+.text-3xl{
+  font-size: 30px;
+}
+
+.text-4xl{
+  font-size: 40px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.mb-10{
+  margin-bottom: 40px;
+}
+
+.text-decoretion-none{
+  text-decoration: none;
+}
+
+.text-black{
+  color: black;
+}
+
+.my-72{
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.item-center{
+  align-items: center;
+}
+
+.px-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.py-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.rounded{
+  border: 1px solid white;
+  border-radius: 50%;
+  
+}
+
+.text-footer-white{
+  color: #d8d8d8;
+}
+
+.pt-30{
+  padding-top: 30px;
+}

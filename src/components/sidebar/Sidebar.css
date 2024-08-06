@@ -1,0 +1,16 @@
+.sidebar {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter {
+    margin-bottom: 10px;
+  }
+  
+  .toggle-button {
+    margin-bottom: 10px;
+  }
+  
