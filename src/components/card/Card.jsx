@@ -30,7 +30,7 @@ const Card = () => {
         {products.map((product) => (
           <div key={product.id} className="card">
             <div className="card-image">
-              <img style={{ height: 250 }} src={product.image} alt={product.category} />
+              <img style={{  }} src={product.image} alt={product.category} />
             </div>
             <div className="card-content">
               <div>

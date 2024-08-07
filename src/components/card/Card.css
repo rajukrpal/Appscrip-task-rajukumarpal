@@ -5,16 +5,17 @@
     margin: 10px;
     text-align: left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 22%;
+    width: 10%;
     box-sizing: border-box;
   }
   
   .card-image img {
-    width: 100%;
-    height: auto;
+    margin: auto;
+    height: 150px;
     display: block;
   }
-  
+
+
   .card-content {
     padding: 15px;
   }
