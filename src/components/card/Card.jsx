@@ -29,8 +29,8 @@ const Card = () => {
       <div className="cards-container">
         {products.map((product) => (
           <div key={product.id} className="card">
-            <div className="card-image">
-              <img style={{  }} src={product.image} alt={product.category} />
+            <div className="card-image py-10">
+              <img src={product.image} alt={product.category} />
             </div>
             <div className="card-content">
               <div>
