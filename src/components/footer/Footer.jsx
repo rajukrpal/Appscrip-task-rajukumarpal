@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <span className="flex justify-center text-footer-white">
+        <span className="flex justify-center text-footer-white responsiv">
           Copyright © 2023 mettamuse. All rights reserved.
         </span>
       </div>

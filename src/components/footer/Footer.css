@@ -1,7 +1,7 @@
 .footer {
     background: black;
     color: white;
-    padding: 30px;
+    padding: 10px;
   }
   
   .footer-content {
@@ -153,6 +153,9 @@
     }
     .payment-icons img {
       width: 30px;
+    }
+    .responsiv{
+      font-size: 13px;
     }
   }
   

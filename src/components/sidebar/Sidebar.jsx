@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 import Card from "../card/Card";
 import { GetProducts } from "../../productApi/data";
+import { HiChevronRight } from "react-icons/hi2";
+import { HiChevronLeft } from "react-icons/hi2";
+
+
+
 
 const Sidebar = () => {
   const [isVisible, setIsVisible] = useState(window.innerWidth > 768);
@@ -31,7 +36,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="px-10">
+    <div className="px-10" style={{overflow:"hidden"}}>
       <div>
         <div
           style={{
@@ -49,9 +54,9 @@ const Sidebar = () => {
             </p>
             <button style={{ cursor: "pointer" }} onClick={toggleSidebar}>
               {isVisible ? (
-                <span> &#11164; Hide Filter </span>
+                <span className="flex justify-center item-center" > <HiChevronLeft /> Hide Filter </span>
               ) : (
-                <span> &#11166; Show Filter </span>
+                <span className="flex justify-center item-center"> <HiChevronRight /> Show Filter </span>
               )}
             </button>
           </div>
