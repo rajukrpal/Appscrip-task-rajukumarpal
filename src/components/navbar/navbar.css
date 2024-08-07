@@ -1,7 +1,3 @@
-
-
-
-
 header {
     width: 100%;
     background-color: #fff;
@@ -13,23 +9,18 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-}
-
-.navbar-center {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    position: relative;
 }
 
 .navbar-logo img {
     height: 40px;
     margin-right: 10px;
+}
+
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
 }
 
 .navbar-links {
@@ -43,7 +34,6 @@ header {
     margin: 0 15px;
 }
 
-
 .navbar-icons {
     display: flex;
     list-style: none;
@@ -56,5 +46,65 @@ header {
 }
 
 .navbar-icons img {
-    height: 24px; /* Adjust size as needed */
+    height: 24px;
+}
+
+.navbar-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mb-nav-10{
+    margin-bottom: 30px;
+}
+
+.navbar-menu-button img {
+    height: 30px; 
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-menu-button {
+        display: block;
+    }
+
+    .navbar-links-container.open .navbar-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        z-index: 1000;
+    }
+
+    .navbar-icons {
+        display: none;
+    }
+
+    .navbar-links-container.open .navbar-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .language-selector {
+        display: none;
+    }
+
+    .navbar-links-container.open .language-selector {
+        display: block;
+        margin-top: 10px; 
+    }
+
+    .mb-nav-10{
+        margin-bottom: 0;
+    }
 }

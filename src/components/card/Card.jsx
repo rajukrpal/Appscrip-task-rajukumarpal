@@ -23,15 +23,14 @@ const Card = () => {
     );
   };
 
-  console.log("r",products)
-
   return (
     <>
+    <div className="flex">
       <div className="cards-container">
         {products.map((product) => (
           <div key={product.id} className="card">
             <div className="card-image">
-              <img style={{ height: 400 }} src={product.image} alt={product.category} />
+              <img style={{ height: 250 }} src={product.image} alt={product.category} />
             </div>
             <div className="card-content">
               <div>
@@ -51,6 +50,7 @@ const Card = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </>
   );

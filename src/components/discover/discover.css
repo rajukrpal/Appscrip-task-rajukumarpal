@@ -1,6 +1,52 @@
+.discover-container {
+    padding: 4rem 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .discover-content {
+    max-width: 90%; 
+    margin: 0 auto;
+  }
+  
+  .discover-title {
+    font-size: 2.5rem; 
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem; 
+    overflow-wrap: break-word; 
+  }
+  
+  .discover-description {
+    font-size: 1.125rem; 
+    line-height: 1.6;
+    letter-spacing: 0.05rem;
+    padding: 0 1rem; 
+    overflow-wrap: break-word; 
+  }
+  
 
-
-.discription-style{
-    padding: 10px 20px;
-}
-
+  @media (max-width: 768px) {
+    .discover-title {
+      font-size: 2rem; 
+    }
+  
+    .discover-description {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .discover-title {
+      font-size: 0.9rem; 
+      font-weight: 700;
+    }
+  
+    .discover-description {
+      font-size: 0.875rem; 
+      padding: 0; 
+    }
+  }
+  

@@ -3,16 +3,11 @@ import "./discover.css";
 
 const Discover = () => {
   return (
-    <div className="my-72 flex justify-center">
-      <div className="" style={{ width: 700, lineHeight: 2, letterSpacing: 1 }}>
-        <h1 className="  text-4xl item-center">DISCOVER OUR PRODUCTS</h1>
-        <p
-          className="px-10 flex justify-center item-center"
-          style={{ width: 650, lineHeight: 2, letterSpacing: 1 }}
-        >
-          Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus
-          scelerisque. Dolor integer scelerisque nibh amet mi ut elementum
-          dolor.
+    <div className="discover-container">
+      <div className="discover-content">
+        <h1 className="discover-title">DISCOVER OUR PRODUCTS</h1>
+        <p className="discover-description">
+          Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus <br /> scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.
         </p>
       </div>
     </div>
